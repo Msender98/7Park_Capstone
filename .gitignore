@@ -1,5 +1,6 @@
 venv
 .credentials
+credentials
 test*
 .ipynb*
 config.py
