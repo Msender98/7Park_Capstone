@@ -4,3 +4,5 @@ credentials
 test*
 .ipynb*
 config.py
+__pycache__
+
