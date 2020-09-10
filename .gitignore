@@ -2,3 +2,4 @@ venv
 .credentials
 test*
 .ipynb*
+config.py
