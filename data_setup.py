@@ -32,7 +32,7 @@ def ZRI_format(ZRI, time_unit = 'Month', window_size = 1, future_time = 1, perce
     #Adds the index of the final observations: 'ZZZZZTUYYYYY'
     if time_unit == 'Year':
         ZRI_long = ZRI_long.assign(new_index =  ZRI_long.RegionName.astype(str) +'Y' +
-                                                  ZRI_long.Year.astype(str))
+                                                ZRI_long.Year.astype(str))
     else:
         ZRI_long = ZRI_long.assign(new_index = ZRI_long.RegionName.astype(str) +
                                            time_unit[0] +
